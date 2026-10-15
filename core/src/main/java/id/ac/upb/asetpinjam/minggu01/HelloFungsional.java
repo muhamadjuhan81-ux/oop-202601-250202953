@@ -13,8 +13,8 @@ public final class HelloFungsional {
      * TODO minggu 1: kembalikan fungsi yang menerima NAMA dan menghasilkan sapaan
      * yang memuat "Aset-Pinjam", nama tersebut, dan NIM yang diberikan. Gunakan lambda.
      */
-    public static Function<String, String> pembuatSapaan(String nim) {
-        throw new UnsupportedOperationException("TODO minggu 1: HelloFungsional.pembuatSapaan");
+    public static Function<String, String> pembuatSapaan(String nim){
+        return nama -> "Aset-Pinjam: Halo " + nama + " (" + nim + "), Selamat Datang!";
     }
 
     public static void main(String[] args) {
