@@ -19,7 +19,7 @@ Minggu ini saya mengisi tiga class turunan dari Aset, yaitu Ruang, Laptop, dan A
 - Prompt utama: 
     - Tolong jelaskan apa yang dimaksud dari tugas minggu 3, berperanlah sebagai seorang pembimbing, dan jelaskan dengan bahasa yang mudah dipahami.
     - Kenapa error saat dijalankan dan bagaimana cara mengatasinya?
-- Yang saya ubah atau tolak dari saran AI, dan alasannya: Tidak banyak yang saya ubah karena kode dari AI sudah sesuai aturan tugas. Perubahan yang saya buat hanya di bagian @Override, yaitu nama method yang sempat salah (getJenisAset) saya ganti jadi getJenis supaya sama dengan yang ada di Aset agar tidak eror saat di uji.
+- Yang saya ubah atau tolak dari saran AI, dan alasannya: Tidak banyak yang saya ubah karena kode dari AI sudah sesuai aturan tugas  .. Perubahan yang saya buat hanya di bagian @Override, yaitu nama method yang sempat salah (getJenisAset) saya ganti jadi getJenis supaya sama dengan yang ada di Aset agar tidak eror saat di uji.
 - Satu hal yang saya pahami lebih baik sekarang: nama method yang di override harus sama persis dengan yang ada di Aset. Waktu saya salah tulis jadi getJenisAset dan langsung error, setelah saya samakan jadi getJenis baru bisa jalan.
     
 ## Dokumentasi
