@@ -15,7 +15,7 @@
 ## Penggunaan AI
 - Alat yang dipakai: Gemini
 - Bagian yang dibantu AI: HelloFungsional.java, HelloOOP.java, HelloProsedural.java
-- Prompt utama: Bagaimana cara mengisi file HelloFungsional.java, HelloOOP.java, HelloProsedural.java, dan cara mengujinya, jelaskan!, dan cara mengatasi eror ini bagaimana jelaskan!
+- Prompt utama: Bagaimana cara mengisi file HelloFungsional.java, HelloOOP.java, HelloProsedural.java, dan cara mengujinya, jelaskan!, dan cara mengatasi eror ini bagaimana jelaskan!!
 
 - Yang saya ubah atau tolak dari saran AI, dan alasannya: Menyesuaikan kembali format kode agar tetap rapi dan sesuai dengan kerangka bawaan proyek.
 - Satu hal yang saya pahami lebih baik sekarang:Perbedaan penerapan konsep prosedural, OOP, dan fungsional pada bahasa Java.
