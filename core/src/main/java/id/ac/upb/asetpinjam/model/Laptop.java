@@ -30,6 +30,9 @@ public class Laptop extends Aset {
     public JenisAset getJenis() {
         return JenisAset.LAPTOP;
     }
-    //  Minggu 4: override hitungDenda(int).
+    @Override
+    public long hitungDenda(int hariTerlambat) {
+        return super.hitungDenda(hariTerlambat) * 2;
+    }
 }
  
