@@ -27,4 +27,6 @@ Salin setiap pertanyaan ambigu (nomor 1 sampai 7) ke sini dan jawab. Contoh:
 
 ## Asumsi lain
 
-Tambahkan di sini keputusan lain yang Anda ambil: rumus denda progresif, perubahan skema database, format error API, dan seterusnya.
+- Rumus denda progresif = flat + (flat × hari / 10)
+
+  Alasan: setiap 10 hari terlambat menambah satu kali denda flat, supaya keterlambatan yang lama dikenai denda lebih berat.
