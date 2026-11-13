@@ -20,10 +20,10 @@ Salin setiap pertanyaan ambigu (nomor 1 sampai 7) ke sini dan jawab. Contoh:
 
 ## A-01: batas waktu bentrok
 - Pertanyaan: 09:00-11:00 dan 11:00-13:00 pada aset yang sama bentrok atau tidak?
-- Keputusan: (isi)
-- Alasan: (isi)
-- Dampak ke kode: (isi)
-- Tes yang membuktikan: (isi)
+- Keputusan: Tidak bentrok. Kalau satu peminjaman selesai tepat pada jam peminjaman lain mulai, keduanya boleh.
+- Alasan: Waktu selesai saya anggap bukan bagian dari pemakaian, jadi rentangnya dihitung dari mulai sampai sebelum selesai. Dengan begitu peminjam berikutnya bisa langsung memakai aset tanpa menunggu jeda, seperti jadwal kuliah yang berurutan.
+- Dampak ke kode: Method bentrok di JadwalPeminjaman memakai perbandingan "sebelum" (isBefore), bukan "sebelum atau sama dengan", sehingga jam yang sama tidak dihitung bentrok.
+- Tes yang membuktikan:  selesaiSamaDenganMulai di mahasiswa/BatasBentrokTest.java. Tes lain di file itu (tumpangTindihBentrok, terkandungBentrok, terpisahJauhTidakBentrok, asetBerbedaWaktuSamaTidakBentrok) menjaga aturan lainnya tetap benar.
 
 ## Asumsi lain
 
